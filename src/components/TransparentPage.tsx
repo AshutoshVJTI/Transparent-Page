@@ -11,8 +11,8 @@ const TransparentPage: React.FC = () => {
           position: "absolute",
           top: 0,
           left: 0,
-          width: "100vw",
-          height: "100vh",
+          width: size.width,
+          height: size.height,
         }}
       >
         <Webcam
@@ -32,7 +32,7 @@ const TransparentPage: React.FC = () => {
           fontSize: 60,
           fontWeight: 800,
           color: "white",
-          opacity: 0.2,
+            opacity: 0.1
         }}
       >
         Transparent Page
