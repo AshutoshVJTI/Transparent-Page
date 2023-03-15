@@ -58,9 +58,10 @@ const TransparentPage: React.FC = () => {
           height: "100%",
           background: "rgba(255, 255, 255, 0.5)",
           zIndex: 1,
+          fontSize: 90
         }}
       >
-        {/* Add your content here */}
+        Transparent Page
       </div>
     </div>
   );
