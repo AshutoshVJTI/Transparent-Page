@@ -1,14 +1,18 @@
 import React from 'react';
 import Webcam from 'react-webcam';
+import { useWindowSize } from '../hooks/useWindowSize';
 
 const TransparentPage: React.FC = () => {
+    const size = useWindowSize();
   return (
     <>
       <Webcam
         style={{ position: 'fixed', top: 0, left: 0, zIndex: -1 }}
-        videoConstraints={{ facingMode: 'environment' }}
+        height={size.height}
+        width={size.width}
+        videoConstraints={{ facingMode: 'user' }}
       />
-      <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0, 0, 0, 0.5)', fontSize: 80 }}>
+      <div style={{ position: 'absolute', top: 0, left: 0, width: '100vw', height: '100vh', background: 'rgba(0, 0, 0, 0.5)', fontSize: 80 }}>
         Transparent Page
       </div>
     </>
