@@ -22,7 +22,7 @@ const TransparentPage: React.FC = () => {
           top: 0,
           height: "calc(100vh + 25px)",
           background: "black",
-          // mixBlendMode: "hard-light",
+          mixBlendMode: "hard-light",
           paddingTop: 5,
           color: "rgba(255, 255,255, 0.5)",
           display: "flex",
