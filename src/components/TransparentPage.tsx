@@ -19,23 +19,28 @@ const TransparentPage: React.FC = () => {
           audio={false}
           height={size.height}
           width={size.width}
-          videoConstraints={{ facingMode: "environment" }}
+          videoConstraints={{ facingMode: "user" }}
         />
       </div>
       <div
         style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: size.width,
           height: size.height,
-          fontSize: 60,
-          fontWeight: 800,
-          color: "white",
-            opacity: 0.1
+          width: size.width,
         }}
       >
-        Transparent Page
+        <div
+          style={{
+            position: "relative",
+            top: 0,
+            fontSize: 60,
+            fontWeight: 800,
+            height: "100vh",
+            background: "black",
+            mixBlendMode: "hard-light",
+          }}
+        >
+          <p style={{ color: "rgba(255, 255,255, 0.5)" }}>Transparent Page</p>
+        </div>
       </div>
     </>
   );
