@@ -20,15 +20,16 @@ const TransparentPage: React.FC = () => {
         style={{
           position: "relative",
           top: 0,
-          height: "calc(100vh + 25px)",
+          height: "100vh",
           background: "black",
-          mixBlendMode: "hard-light",
-          paddingTop: 5,
+          // mixBlendMode: "hard-light",
+          paddingTop: 50,
           color: "rgba(255, 255,255, 0.5)",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          textAlign: 'center'
+          textAlign: 'center',
+          gap: 30
         }}
       >
         <Content />
