@@ -19,7 +19,7 @@ const TransparentPage: React.FC = () => {
           audio={false}
           height={size.height}
           width={size.width}
-          videoConstraints={{ facingMode: "user" }}
+          videoConstraints={{ facingMode: "environment" }}
         />
       </div>
       <div
