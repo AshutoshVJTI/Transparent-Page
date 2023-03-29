@@ -13,7 +13,7 @@ const TransparentPage: React.FC = () => {
           width: "100%",
         }}
       >
-        <Camera aspectRatio={"cover"} errorMessages={{}} />
+        <Camera aspectRatio={"cover"} facingMode="environment" errorMessages={{}} />
       </div>
       <div
         style={{
