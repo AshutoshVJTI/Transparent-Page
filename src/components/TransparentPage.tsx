@@ -1,9 +1,7 @@
 import React from "react";
-import Webcam from "react-webcam";
-import { useWindowSize } from "../hooks/useWindowSize";
+import { Camera } from "react-camera-pro";
 
 const TransparentPage: React.FC = () => {
-  const size = useWindowSize();
   return (
     <>
       <div
@@ -11,36 +9,28 @@ const TransparentPage: React.FC = () => {
           position: "absolute",
           top: 0,
           left: 0,
-          width: size.width,
-          height: size.height,
+          height: "100%",
+          width: "100%",
         }}
       >
-        <Webcam
-          audio={false}
-          height={size.height}
-          width={size.width}
-          videoConstraints={{ facingMode: "environment" }}
-        />
+        <Camera aspectRatio={"cover"} errorMessages={{}} />
       </div>
       <div
         style={{
-          height: size.height,
-          width: size.width,
+          position: "relative",
+          top: 0,
+          fontSize: 60,
+          fontWeight: 800,
+          height: "100vh",
+          background: "black",
+          mixBlendMode: "hard-light",
+          paddingTop: 5,
+          color: "rgba(255, 255,255, 0.5)"
         }}
       >
-        <div
-          style={{
-            position: "relative",
-            top: 0,
-            fontSize: 60,
-            fontWeight: 800,
-            height: "100vh",
-            background: "black",
-            mixBlendMode: "hard-light",
-          }}
-        >
-          <p style={{ color: "rgba(255, 255,255, 0.5)" }}>Transparent Page</p>
-        </div>
+        <p className="container">
+          Transparent Page
+        </p>
       </div>
     </>
   );
