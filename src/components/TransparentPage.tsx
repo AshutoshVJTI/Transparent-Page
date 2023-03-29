@@ -20,7 +20,7 @@ const TransparentPage: React.FC = () => {
         style={{
           position: "relative",
           top: 0,
-          height: "100vh",
+          height: "calc(100vh + 50px)",
           background: "black",
           mixBlendMode: "hard-light",
           paddingTop: 50,
