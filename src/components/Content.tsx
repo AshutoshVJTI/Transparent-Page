@@ -10,7 +10,7 @@ const Content = () => {
       </div>
       <a
         style={{
-          padding: "15px 20px",
+          padding: "0px 20px",
           fontSize: 18,
           fontWeight: 700,
           backgroundColor: "rgba(255, 3, 62, 0.5)",
@@ -21,7 +21,7 @@ const Content = () => {
         href={"https://github.com/AshutoshVJTI/Transparent-Page"}
         target="blank"
       >
-        GITHUB
+        <p>GITHUB</p>
       </a>
       <div
         style={{
