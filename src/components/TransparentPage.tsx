@@ -1,5 +1,6 @@
 import React from "react";
 import { Camera } from "react-camera-pro";
+import Content from "./Content";
 
 const TransparentPage: React.FC = () => {
   return (
@@ -19,18 +20,18 @@ const TransparentPage: React.FC = () => {
         style={{
           position: "relative",
           top: 0,
-          fontSize: 60,
-          fontWeight: 800,
-          height: "100vh",
+          height: "calc(100vh + 25px)",
           background: "black",
-          mixBlendMode: "hard-light",
+          // mixBlendMode: "hard-light",
           paddingTop: 5,
-          color: "rgba(255, 255,255, 0.5)"
+          color: "rgba(255, 255,255, 0.5)",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          textAlign: 'center'
         }}
       >
-        <p className="container">
-          Transparent Page
-        </p>
+        <Content />
       </div>
     </>
   );
