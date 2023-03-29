@@ -30,7 +30,7 @@ const Content = () => {
           height: 2,
         }}
       />
-      <p style={{ fontSize: 24, fontWeight: 700 }}>Demonstration Buttons</p>
+      <p style={{ fontSize: 24, fontWeight: 700, margin: '10px 0px' }}>Demonstration Cards</p>
       <div style={{ display: "flex", gap: 20 }}>
         <button
           style={{
