@@ -13,7 +13,7 @@ const Content = () => {
           padding: "0px 20px",
           fontSize: 18,
           fontWeight: 700,
-          backgroundColor: "rgba(255, 3, 62, 0.5)",
+          backgroundColor: "rgba(255, 3, 62, 0.8)",
           borderRadius: 10,
           color: "inherit",
           textDecoration: "none",
@@ -25,7 +25,7 @@ const Content = () => {
       </a>
       <div
         style={{
-          backgroundColor: "rgba(255, 255 ,255 , 0.5)",
+          backgroundColor: "rgba(255, 255 ,255 , 0.8)",
           width: "90%",
           height: 2,
         }}
@@ -37,7 +37,7 @@ const Content = () => {
             padding: "25px 50px",
             fontSize: 18,
             fontWeight: 700,
-            backgroundColor: "rgba(255, 255, 255, 0.5)",
+            backgroundColor: "rgba(255, 255, 255, 0.8)",
             borderRadius: 10,
             color: "inherit",
             textDecoration: "none",
@@ -55,21 +55,21 @@ const Content = () => {
             style={{
               width: "200px",
               height: 4,
-              backgroundColor: "rgba(255, 255, 255, 0.5)",
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
             }}
           />
           <div
             style={{
               width: "100px",
               height: 2,
-              backgroundColor: "rgba(255, 255, 255, 0.5)",
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
             }}
           />
           <div
             style={{
               width: "100px",
               height: 2,
-              backgroundColor: "rgba(255, 255, 255, 0.5)",
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
             }}
           />
         </div>
@@ -80,7 +80,7 @@ const Content = () => {
             padding: "25px 50px",
             fontSize: 18,
             fontWeight: 700,
-            backgroundColor: "rgba(255, 255, 255, 0.5)",
+            backgroundColor: "rgba(255, 255, 255, 0.8)",
             borderRadius: 10,
             color: "inherit",
             textDecoration: "none",
@@ -98,21 +98,21 @@ const Content = () => {
             style={{
               width: "200px",
               height: 4,
-              backgroundColor: "rgba(255, 255, 255, 0.5)",
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
             }}
           />
           <div
             style={{
               width: "100px",
               height: 2,
-              backgroundColor: "rgba(255, 255, 255, 0.5)",
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
             }}
           />
           <div
             style={{
               width: "100px",
               height: 2,
-              backgroundColor: "rgba(255, 255, 255, 0.5)",
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
             }}
           />
         </div>
@@ -123,7 +123,7 @@ const Content = () => {
             padding: "25px 50px",
             fontSize: 18,
             fontWeight: 700,
-            backgroundColor: "rgba(255, 255, 255, 0.5)",
+            backgroundColor: "rgba(255, 255, 255, 0.8)",
             borderRadius: 10,
             color: "inherit",
             textDecoration: "none",
@@ -141,21 +141,21 @@ const Content = () => {
             style={{
               width: "200px",
               height: 4,
-              backgroundColor: "rgba(255, 255, 255, 0.5)",
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
             }}
           />
           <div
             style={{
               width: "100px",
               height: 2,
-              backgroundColor: "rgba(255, 255, 255, 0.5)",
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
             }}
           />
           <div
             style={{
               width: "100px",
               height: 2,
-              backgroundColor: "rgba(255, 255, 255, 0.5)",
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
             }}
           />
         </div>

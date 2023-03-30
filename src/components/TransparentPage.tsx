@@ -24,7 +24,7 @@ const TransparentPage: React.FC = () => {
           background: "black",
           mixBlendMode: "hard-light",
           paddingTop: 30,
-          color: "rgba(255, 255,255, 0.5)",
+          color: "rgba(255, 255,255, 0.8)",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
