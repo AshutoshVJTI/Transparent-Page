@@ -3,9 +3,9 @@ import React from "react";
 const Content = () => {
   return (
     <>
-      <div style={{ fontSize: 36, fontWeight: 800 }}>Transparent Page</div>
+      <div style={{ fontSize: 36, fontWeight: 800 }}>Transparent UI</div>
       <div style={{ fontSize: 24, fontWeight: 700 }}>
-        This is a transparent page created using React and react-camera-pro
+        This is a transparent UI created using React and react-camera-pro
         library.
       </div>
       <a
